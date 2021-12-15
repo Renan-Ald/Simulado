@@ -1,0 +1,973 @@
+﻿<div id="dvData" class="table-responsive">
+    <table class="table table-striped table-bordered table-condensed">
+        <thead>
+            <tr>
+                <th colspan="3" style="text-align: center"></th>
+            </tr>
+            <tr>
+                <th>Disciplina:
+                </th><th>Nome:
+                </th><th>Semestre:</th>
+            </tr>
+        </thead>
+        <!-- ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="" style="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Aerton de Oliveira Carvalho Segundo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Aerton de Oliveira Carvalho Segundo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Aerton de Oliveira Carvalho Segundo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Aerton de Oliveira Carvalho Segundo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Aerton de Oliveira Carvalho Segundo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Aerton de Oliveira Carvalho Segundo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Ailson da Silva Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Ailson da Silva Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Ailson da Silva Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Ailson da Silva Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Ailson da Silva Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Ailson da Silva Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Alisson da Silva Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Alisson da Silva Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Alisson da Silva Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Alisson da Silva Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Alisson da Silva Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Alisson da Silva Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação I</td>
+                <td>Allysson Martins de Carvalho</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Allysson Martins de Carvalho</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Teste, Verificação e Validação de Software</td>
+                <td>Allysson Martins de Carvalho</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador III</td>
+                <td>Allysson Martins de Carvalho</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Inteligência Artificial</td>
+                <td>Allysson Martins de Carvalho</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Allysson Martins de Carvalho</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Eletiva I</td>
+                <td>Allysson Martins de Carvalho</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Anderson Felipe Oliveira de Sousa</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Anderson Felipe Oliveira de Sousa</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Anderson Felipe Oliveira de Sousa</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Anderson Felipe Oliveira de Sousa</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Anderson Felipe Oliveira de Sousa</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Anderson Felipe Oliveira de Sousa</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Asaph Pemberton de Oliveira</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Asaph Pemberton de Oliveira</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Asaph Pemberton de Oliveira</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Asaph Pemberton de Oliveira</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Asaph Pemberton de Oliveira</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Asaph Pemberton de Oliveira</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Caio Freitas Guimarães Moreira Lima</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Caio Freitas Guimarães Moreira Lima</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Caio Freitas Guimarães Moreira Lima</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Caio Freitas Guimarães Moreira Lima</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Caio Freitas Guimarães Moreira Lima</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Caio Freitas Guimarães Moreira Lima</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação I</td>
+                <td>Danilo Chaves de Oliveira</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Lógica para Computação</td>
+                <td>Danilo Chaves de Oliveira</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Danilo Chaves de Oliveira</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Danilo Chaves de Oliveira</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Danilo Chaves de Oliveira</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Danilo Chaves de Oliveira</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação I</td>
+                <td>Davi de Oliveira Lopes</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Lógica para Computação</td>
+                <td>Davi de Oliveira Lopes</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Davi de Oliveira Lopes</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Davi de Oliveira Lopes</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Davi de Oliveira Lopes</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Davi de Oliveira Lopes</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Davi Rodrigues Matias</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Davi Rodrigues Matias</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Davi Rodrigues Matias</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Davi Rodrigues Matias</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Davi Rodrigues Matias</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Davi Rodrigues Matias</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Eduardo Henrique Sousa Rocha da Silva</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Qualidade de Software</td>
+                <td>Eduardo Henrique Sousa Rocha da Silva</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Teste, Verificação e Validação de Software</td>
+                <td>Eduardo Henrique Sousa Rocha da Silva</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador III</td>
+                <td>Eduardo Henrique Sousa Rocha da Silva</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Inteligência Artificial</td>
+                <td>Eduardo Henrique Sousa Rocha da Silva</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Eduardo Henrique Sousa Rocha da Silva</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Eletiva I</td>
+                <td>Eduardo Henrique Sousa Rocha da Silva</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Erik Ryan Garcia de Melo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Erik Ryan Garcia de Melo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Erik Ryan Garcia de Melo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Erik Ryan Garcia de Melo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Erik Ryan Garcia de Melo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Erik Ryan Garcia de Melo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Fernando Eulálio Nunes Filho</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Qualidade de Software</td>
+                <td>Fernando Eulálio Nunes Filho</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Teste, Verificação e Validação de Software</td>
+                <td>Fernando Eulálio Nunes Filho</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador III</td>
+                <td>Fernando Eulálio Nunes Filho</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Inteligência Artificial</td>
+                <td>Fernando Eulálio Nunes Filho</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Fernando Eulálio Nunes Filho</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Eletiva I</td>
+                <td>Fernando Eulálio Nunes Filho</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação I</td>
+                <td>Ismael Rodrigues de Sousa</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Ismael Rodrigues de Sousa</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Teste, Verificação e Validação de Software</td>
+                <td>Ismael Rodrigues de Sousa</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador III</td>
+                <td>Ismael Rodrigues de Sousa</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Inteligência Artificial</td>
+                <td>Ismael Rodrigues de Sousa</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Ismael Rodrigues de Sousa</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Eletiva I</td>
+                <td>Ismael Rodrigues de Sousa</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>José Fernando Férrer Pompeu</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>José Fernando Férrer Pompeu</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>José Fernando Férrer Pompeu</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>José Fernando Férrer Pompeu</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>José Fernando Férrer Pompeu</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Lógica para Computação</td>
+                <td>João Gabriel Amorim de Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>João Gabriel Amorim de Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>João Gabriel Amorim de Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>João Gabriel Amorim de Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>João Gabriel Amorim de Azevedo</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>João Rodrigues de Melo Neto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>João Rodrigues de Melo Neto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>João Rodrigues de Melo Neto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Teste, Verificação e Validação de Software</td>
+                <td>João Rodrigues de Melo Neto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador III</td>
+                <td>João Rodrigues de Melo Neto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>João Rodrigues de Melo Neto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Eletiva I</td>
+                <td>João Rodrigues de Melo Neto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Juan Victor Leal de Moraes</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Juan Victor Leal de Moraes</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Juan Victor Leal de Moraes</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Juan Victor Leal de Moraes</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Juan Victor Leal de Moraes</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Juan Victor Leal de Moraes</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Júlia Nogueira Chaves de Castro</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Qualidade de Software</td>
+                <td>Júlia Nogueira Chaves de Castro</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Teste, Verificação e Validação de Software</td>
+                <td>Júlia Nogueira Chaves de Castro</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador III</td>
+                <td>Júlia Nogueira Chaves de Castro</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Inteligência Artificial</td>
+                <td>Júlia Nogueira Chaves de Castro</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Júlia Nogueira Chaves de Castro</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Eletiva I</td>
+                <td>Júlia Nogueira Chaves de Castro</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação I</td>
+                <td>Kevin Mayan de Sousa Silva</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Lógica para Computação</td>
+                <td>Kevin Mayan de Sousa Silva</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Kevin Mayan de Sousa Silva</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Kevin Mayan de Sousa Silva</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Kevin Mayan de Sousa Silva</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Kevin Mayan de Sousa Silva</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Lia Mariana Nascimento Brito</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Lia Mariana Nascimento Brito</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Lia Mariana Nascimento Brito</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Lia Mariana Nascimento Brito</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Lia Mariana Nascimento Brito</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Lia Mariana Nascimento Brito</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação I</td>
+                <td>Lindomar Lopes de Negreiros Filho</td>
+                <td>1º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Lógica para Computação</td>
+                <td>Lindomar Lopes de Negreiros Filho</td>
+                <td>1º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Lindomar Lopes de Negreiros Filho</td>
+                <td>1º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Lucas Khristian da Silva Dias</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Lucas Khristian da Silva Dias</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Lucas Khristian da Silva Dias</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Lucas Khristian da Silva Dias</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Lucas Khristian da Silva Dias</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Lucas Khristian da Silva Dias</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação I</td>
+                <td>Lucas Santos Oliveira Alves da Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Lucas Santos Oliveira Alves da Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Lucas Santos Oliveira Alves da Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Lucas Santos Oliveira Alves da Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Lucas Santos Oliveira Alves da Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Lucas Santos Oliveira Alves da Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Luis Henrique Belisário Lopes dos Santos</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Qualidade de Software</td>
+                <td>Luis Henrique Belisário Lopes dos Santos</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Teste, Verificação e Validação de Software</td>
+                <td>Luis Henrique Belisário Lopes dos Santos</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador III</td>
+                <td>Luis Henrique Belisário Lopes dos Santos</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Inteligência Artificial</td>
+                <td>Luis Henrique Belisário Lopes dos Santos</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Luis Henrique Belisário Lopes dos Santos</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Eletiva I</td>
+                <td>Luis Henrique Belisário Lopes dos Santos</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação I</td>
+                <td>Marcelo Freitas Coutinho Segundo</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Lógica para Computação</td>
+                <td>Marcelo Freitas Coutinho Segundo</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Marcelo Freitas Coutinho Segundo</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Marcelo Freitas Coutinho Segundo</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Marcelo Freitas Coutinho Segundo</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Marcelo Freitas Coutinho Segundo</td>
+                <td>2º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Marco Antonio Machado de Castro Nunes</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Marco Antonio Machado de Castro Nunes</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Marco Antonio Machado de Castro Nunes</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Marco Antonio Machado de Castro Nunes</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Marco Antonio Machado de Castro Nunes</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Marco Antonio Machado de Castro Nunes</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação I</td>
+                <td>Marcus Henrique Albuquerque Porto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Lógica para Computação</td>
+                <td>Marcus Henrique Albuquerque Porto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Marcus Henrique Albuquerque Porto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Marcus Henrique Albuquerque Porto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Marcus Henrique Albuquerque Porto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Marcus Henrique Albuquerque Porto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Matheus Magno do Nascimento Costa</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Qualidade de Software</td>
+                <td>Matheus Magno do Nascimento Costa</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Teste, Verificação e Validação de Software</td>
+                <td>Matheus Magno do Nascimento Costa</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador III</td>
+                <td>Matheus Magno do Nascimento Costa</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Inteligência Artificial</td>
+                <td>Matheus Magno do Nascimento Costa</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Matheus Magno do Nascimento Costa</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Eletiva I</td>
+                <td>Matheus Magno do Nascimento Costa</td>
+                <td>5º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Miguel José de Sousa Neto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Miguel José de Sousa Neto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Miguel José de Sousa Neto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Miguel José de Sousa Neto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Miguel José de Sousa Neto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Miguel José de Sousa Neto</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Neuremberg Vieira Peixoto Junior</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Neuremberg Vieira Peixoto Junior</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Neuremberg Vieira Peixoto Junior</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Neuremberg Vieira Peixoto Junior</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Neuremberg Vieira Peixoto Junior</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Neuremberg Vieira Peixoto Junior</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Regla Bel Cruz Lula</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Regla Bel Cruz Lula</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Regla Bel Cruz Lula</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Regla Bel Cruz Lula</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Regla Bel Cruz Lula</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Regla Bel Cruz Lula</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação I</td>
+                <td>Roberto Alexander Jatobá Junior</td>
+                <td>1º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Lógica para Computação</td>
+                <td>Roberto Alexander Jatobá Junior</td>
+                <td>1º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Roberto Alexander Jatobá Junior</td>
+                <td>1º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Rodrigo Araújo Jansen e Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Rodrigo Araújo Jansen e Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Rodrigo Araújo Jansen e Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Rodrigo Araújo Jansen e Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Rodrigo Araújo Jansen e Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Rodrigo Araújo Jansen e Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Rommel Bonfim dos Reis Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Rommel Bonfim dos Reis Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Rommel Bonfim dos Reis Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Rommel Bonfim dos Reis Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Rommel Bonfim dos Reis Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Rommel Bonfim dos Reis Silva</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação II</td>
+                <td>Valterlim Pereira Nolêto Júnior</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Valterlim Pereira Nolêto Júnior</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Valterlim Pereira Nolêto Júnior</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Projeto Integrador II</td>
+                <td>Valterlim Pereira Nolêto Júnior</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Valterlim Pereira Nolêto Júnior</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Gestão e Governança de TI</td>
+                <td>Valterlim Pereira Nolêto Júnior</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' --><tbody ng-repeat="enrollment in data.enrollments | orderBy:'student.name'" class="">
+            <!-- ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Linguagem de Programação I</td>
+                <td>Whalisson Kássio de Melo Frazão</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Lógica para Computação</td>
+                <td>Whalisson Kássio de Melo Frazão</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Probabilidade e Estatística</td>
+                <td>Whalisson Kássio de Melo Frazão</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Design e Arquitetura de Software</td>
+                <td>Whalisson Kássio de Melo Frazão</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} --><tr ng-repeat="subject in enrollment.subjects | filter: {status : 'active'}">
+                <td>Redes e Sistemas Distribuídos</td>
+                <td>Whalisson Kássio de Melo Frazão</td>
+                <td>4º Semestre</td>
+            </tr><!-- end ngRepeat: subject in enrollment.subjects | filter: {status : 'active'} -->
+        </tbody><!-- end ngRepeat: enrollment in data.enrollments | orderBy:'student.name' -->
+    </table>
+</div>

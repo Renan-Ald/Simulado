@@ -1,0 +1,124 @@
+-----------
+Simulado 1
+-----------
+    Probabilidade e Estatística
+
+    Design e Arquitetura de Software
+
+    Projeto Integrador II
+
+    Redes e Sistemas Distribuídos
+
+    Gestão e Governança de TI
+
+-----------
+Simulado 2
+-----------
+    Redes e Sistemas Distribuídos
+
+    Teste, Verificação e Validação de Software
+
+    Projeto Integrador III
+
+    Inteligência Artificial
+
+    Gestão e Governança de TI
+
+    Eletiva I
+
+-----------
+Simulado 3
+-----------
+    Lógica para Computação
+
+    Probabilidade e Estatística
+
+    Design e Arquitetura de Software
+
+    Projeto Integrador II
+
+    Redes e Sistemas Distribuídos
+
+-----------
+Simulado 4
+-----------
+    Qualidade de Software
+
+    Teste, Verificação e Validação de Software
+
+    Projeto Integrador III
+
+    Inteligência Artificial
+
+    Gestão e Governança de TI
+
+    Eletiva I
+
+-----------
+Simulado 5
+-----------
+    Design e Arquitetura de Software
+
+    Projeto Integrador II
+
+    Redes e Sistemas Distribuídos
+
+    Gestão e Governança de TI
+
+-----------
+Simulado 6
+-----------
+    Probabilidade e Estatística
+
+    Design e Arquitetura de Software
+
+    Projeto Integrador II
+
+    Redes e Sistemas Distribuídos
+
+-----------
+Simulado 7
+-----------
+    Projeto Integrador II
+
+    Redes e Sistemas Distribuídos
+
+    Teste, Verificação e Validação de Software
+
+    Projeto Integrador III
+
+    Gestão e Governança de TI
+
+    Eletiva I
+
+-----------
+Simulado 8
+-----------
+    Lógica para Computação
+
+    Probabilidade e Estatística
+
+-----------
+Simulado 9
+-----------
+    Probabilidade e Estatística
+
+    Design e Arquitetura de Software
+
+    Projeto Integrador II
+
+    Redes e Sistemas Distribuídos
+
+    Gestão e Governança de TI
+
+-----------
+Simulado 10
+-----------
+    Lógica para Computação
+
+    Probabilidade e Estatística
+
+    Design e Arquitetura de Software
+
+    Redes e Sistemas Distribuídos
+
